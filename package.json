@@ -1,0 +1,33 @@
+{
+  "name": "meme-token-launchpad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A decentralized app for creating and deploying ERC-20 meme tokens on Base Sepolia",
+  "keywords": [
+    "nextjs",
+    "ethereum",
+    "web3",
+    "tokens",
+    "defi",
+    "base"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.4.5",
+    "ethers": "^6.7.1",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
