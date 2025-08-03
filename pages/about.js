@@ -116,7 +116,45 @@ export default function About() {
             </div>
           </div>
 
-          
+          {/* How It Works */}
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold text-white mb-8">How It Works</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  1
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  Connect Wallet
+                </h3>
+                <p className="text-gray-300">
+                  Connect your MetaMask or any Web3 wallet to get started.
+                </p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  2
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  Fill Details
+                </h3>
+                <p className="text-gray-300">
+                  Enter your token name, symbol, and total supply.
+                </p>
+              </div>
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-xl">
+                  3
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  Launch Token
+                </h3>
+                <p className="text-gray-300">
+                  Click launch and your token is deployed to the blockchain!
+                </p>
+              </div>
+            </div>
+          </div>
 
           
         </div>
