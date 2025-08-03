@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import './globals.css'
 import { WalletProvider } from '../context/WalletContext'
 import { TokenProvider } from '../context/TokenContext'
 import Layout from '../components/Layout/Layout'
