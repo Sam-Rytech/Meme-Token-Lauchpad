@@ -68,7 +68,19 @@ export default function About() {
             </p>
           </div>
 
-          
+          {/* Mission Statement */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 mb-16">
+            <h2 className="text-3xl font-bold text-white mb-6 text-center">
+              Our Mission
+            </h2>
+            <p className="text-lg text-gray-300 text-center leading-relaxed">
+              We believe that anyone should be able to participate in the token
+              economy, regardless of their technical background. MemeFactory
+              removes the barriers to token creation, empowering creators,
+              communities, and entrepreneurs to launch their ideas quickly and
+              securely on the blockchain.
+            </p>
+          </div>
 
           
 
