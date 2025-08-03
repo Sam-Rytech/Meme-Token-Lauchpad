@@ -82,7 +82,21 @@ export default function About() {
             </p>
           </div>
 
-          
+          {/* Features Grid */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {features.map((feature, index) => (
+              <div
+                key={index}
+                className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-200"
+              >
+                <div className="text-purple-400 mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-300">{feature.description}</p>
+              </div>
+            ))}
+          </div>
 
           
 
