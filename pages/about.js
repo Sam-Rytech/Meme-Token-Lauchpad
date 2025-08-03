@@ -98,7 +98,23 @@ export default function About() {
             ))}
           </div>
 
-          
+          {/* Stats */}
+          <div className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 rounded-2xl p-8 border border-white/20 mb-16">
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div>
+                <div className="text-4xl font-bold text-white mb-2">1000+</div>
+                <div className="text-gray-300">Tokens Created</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-white mb-2">500+</div>
+                <div className="text-gray-300">Active Users</div>
+              </div>
+              <div>
+                <div className="text-4xl font-bold text-white mb-2">$1M+</div>
+                <div className="text-gray-300">Total Volume</div>
+              </div>
+            </div>
+          </div>
 
           
 
